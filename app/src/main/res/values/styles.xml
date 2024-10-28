@@ -1,0 +1,38 @@
+<resources>
+    <!-- Estilo para los botones numéricos -->
+    <style name="CalculatorButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">#3A3A3A</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- Estilo para botones de operadores -->
+    <style name="CalculatorButtonOperator">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">#4D4D4D</item>
+        <item name="android:textColor">#FFCC00</item>
+    </style>
+
+    <!-- Estilo para el botón de igual -->
+    <style name="CalculatorButtonEquals">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">#FFCC00</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>
